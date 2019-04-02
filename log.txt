@@ -1,0 +1,45 @@
+    B4 > BATCH_SIZE = 128
+    B3 > BATCH_SIZE = 64
+    B2 > WIDTH = 200
+    B1 > WIDTH = 100
+B0 > Dueling DQN
+
+    A4 > BATCH SIZE = 128
+    A3 > BATCH SIZE = 64
+    A2 > WIDTH = 200
+    A1 > WIDTH = 100
+A0 > Double DQN
+********************************************************************
+A0                                                                 *
+********************************************************************
+MODEL:                                                             *
+A0        : INPUT->FC1->RELU->FC_OUT->OUTPUT                       *
+LOSS      : MSE                                                    *
+OPTIMIZER : ADAM                                                   *
+RL        : Double DQN                                             * 
+                                                                   *
+LEARNING:   INIT_WEIGHT     = FC1 : KAIMING                        *
+                              OUT : XAVIER                         *
+            WIDTH           = 50                                   *
+            DEPTH           = 1 + 1                                *
+            WEIGHT_DECAY    = NONE                                 *
+            LR              = LR SCHEDULING                        *
+            UPDATE_FREQ     = 18 MONTHS                            *
+            MEMORY          = 36 MONTHS                            *
+            ITERATION       = 100                                  *
+            BATCH_SIZE      = 32                                   *
+            EPSILON         = EPSILON SCHEDULING                   *           
+            GAMMA           = 0.9                                  *
+            LAMBDA          = 0.95                                 *
+                                                                   *
+TRAINING:   TOKYO [2000-2009]                                      *
+            SCHEDULING        = V3                                 *
+            BATTERY_RESET     = 0%                                 *
+            REWARD_FUNC       = General                            *
+            REWARD_BROADCAST  = TRUE                               *
+            VIOLATION PENALTY = NONE                               *
+                                                                   *
+VALIDATION: TOKYO[2000-2018]                                       *
+            GREEDY POLICY                                          *
+********************************************************************
+
