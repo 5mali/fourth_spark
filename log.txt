@@ -5,7 +5,7 @@
     B1 > WIDTH = 100
 B0 > Dueling DQN
     
-    A5 > BATCH SIZE = 16
+    A5 > BATCH SIZE = 12
     A4 > BATCH SIZE = 128
     A3 > BATCH SIZE = 64
     A2 > WIDTH = 200
