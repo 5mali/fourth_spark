@@ -71,12 +71,13 @@ os.environ['PYTHONHASHSEED'] = str(seed)
 
 
 LOCATION = 'tokyo'
-NAME       = 'A0_'+ LOCATION.upper()+datetime.now().strftime("_%H_%M_%S")
+NAME       = 'B0_'+ LOCATION.upper()+datetime.now().strftime("_%H_%M_%S")
 MODELNAME  = NAME + '_' + str(seed) + '.pt'
-print("\nMODEL : ", NAME)
-print("SEED  : ",seed_arg)
-print("HOST  : ",socket.gethostname())
-print("START : ",datetime.now())
+print("MODEL : ", NAME)
+print("SEED# : ", seed_arg)
+print("SEED  : ", seed)
+print("HOST  : ", socket.gethostname())
+print("START : ", datetime.now())
 
 
 # In[9]:
@@ -470,14 +471,20 @@ class Net(nn.Module):
         self.fc1 = nn.Linear(N_STATES, HIDDEN_LAYER)
         nn.init.kaiming_uniform_(self.fc1.weight)
 
-        self.fc_out = nn.Linear(HIDDEN_LAYER, N_ACTIONS)
-        nn.init.xavier_uniform_(self.fc_out.weight) 
+        self.adv = nn.Linear(HIDDEN_LAYER, N_ACTIONS)
+        nn.init.xavier_uniform_(self.adv.weight) 
     
+        self.val = nn.Linear(HIDDEN_LAYER, 1)
+        nn.init.xavier_uniform_(self.val.weight)
+        
     def forward(self, x):
         x = self.fc1(x)
         x = F.relu(x)
-        x = self.fc_out(x)
-        return x
+
+        adv = self.adv(x)
+        val = self.val(x)
+        
+        return val + adv - adv.mean()
     
 class DQN(object):
     def __init__(self):
@@ -740,23 +747,23 @@ for YEAR in np.arange(2000,2019):
     results = np.vstack((results, [int(YEAR), np.mean(yr_test_reward_rec), int(capm.violation_counter), int(capm.batt_violations), int(capm.batt_empty_counter), int(capm.batt_full_counter)]))
 
 results = np.delete(results,0,0)
-print("\n")
+# print("\n")
 print(LOCATION.upper())
 print('YEAR\tAVG_RWD\t\tVIOLATIONS\tEMPTY\tFULL')
-print('\t\t\tDAY\tBATT')
+print('\t\t\t\t\t\tDAY\tBATT')
 
 for x in np.arange(0,results.shape[0]):
-    print('{}\t {}\t\t{}\t {}\t{}\t{}'.format(int(results[x,0]), np.around(results[x,1],2), int(results[x,2]), int(results[x,3]), int(results[x,4]),  int(results[x,5]) ))
+    print('{}\t {}\t\t{}\t {}\t\t{}\t{}'.format(int(results[x,0]), np.around(results[x,1],2), int(results[x,2]), int(results[x,3]), int(results[x,4]),  int(results[x,5]) ))
 
 print("\nTOTAL Day  Violations:  ",np.sum(results[:, 2]))
 print("TOTAL Batt  Violations: ",np.sum(results[:,3]))
 print("TOTAL EMPTY Violations: ",np.sum(results[:,4]))
 print("TOTAL FULL  Violations: ",np.sum(results[:,5]))
-print("************************************")
 
 
 # In[23]:
 
 
-print('\nRun time: {}'.format(datetime.now() - tic))
+print('Run time: {}'.format(datetime.now() - tic))
+print("************************************")
 

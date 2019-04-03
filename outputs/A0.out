@@ -1,0 +1,430 @@
+
+
+Seed ARG:  0
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  0
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.424268
+Device:  cpu
+Train time: 0:31:53.344507
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.97		0	 0	0	0
+2001	 1.97		0	 0	0	0
+2002	 1.94		0	 0	0	0
+2003	 1.97		0	 0	0	0
+2004	 1.97		0	 0	0	0
+2005	 1.97		0	 0	0	0
+2006	 1.96		0	 0	0	0
+2007	 1.95		0	 0	0	0
+2008	 1.97		0	 0	0	0
+2009	 1.96		0	 0	0	0
+2010	 1.95		0	 0	0	0
+2011	 1.96		0	 0	0	0
+2012	 1.96		0	 0	0	0
+2013	 1.98		0	 0	0	0
+2014	 1.94		0	 0	0	0
+2015	 1.95		0	 0	0	0
+2016	 1.98		0	 0	0	0
+2017	 1.97		0	 0	0	0
+2018	 1.96		0	 0	0	0
+
+TOTAL Day  Violations:   0.0
+TOTAL Batt  Violations:  0.0
+TOTAL EMPTY Violations:  0.0
+TOTAL FULL  Violations:  0.0
+************************************
+
+Run time: 0:32:30.624724
+
+
+Seed ARG:  1
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  1
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.417240
+Device:  cpu
+Train time: 0:31:22.436808
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.84		0	 0	0	0
+2001	 1.82		0	 0	0	0
+2002	 1.88		0	 0	0	0
+2003	 1.86		0	 0	0	0
+2004	 1.72		1	 2	0	2
+2005	 1.81		0	 0	0	0
+2006	 1.81		0	 0	0	0
+2007	 1.84		0	 0	0	0
+2008	 1.76		0	 0	0	0
+2009	 1.8		0	 0	0	0
+2010	 1.77		0	 0	0	0
+2011	 1.76		0	 0	0	0
+2012	 1.82		0	 0	0	0
+2013	 1.78		0	 0	0	0
+2014	 1.83		0	 0	0	0
+2015	 1.84		0	 0	0	0
+2016	 1.8		1	 2	0	2
+2017	 1.77		0	 0	0	0
+2018	 1.8		0	 0	0	0
+
+TOTAL Day  Violations:   2.0
+TOTAL Batt  Violations:  4.0
+TOTAL EMPTY Violations:  0.0
+TOTAL FULL  Violations:  4.0
+************************************
+
+Run time: 0:32:01.610353
+
+
+Seed ARG:  2
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  2
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.589295
+Device:  cpu
+Train time: 0:28:33.493948
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.97		0	 0	0	0
+2001	 1.97		0	 0	0	0
+2002	 1.87		0	 0	0	0
+2003	 1.95		0	 0	0	0
+2004	 1.84		5	 48	48	0
+2005	 1.93		0	 0	0	0
+2006	 1.9		0	 0	0	0
+2007	 1.95		0	 0	0	0
+2008	 1.95		0	 0	0	0
+2009	 1.96		0	 0	0	0
+2010	 1.91		0	 0	0	0
+2011	 1.9		0	 0	0	0
+2012	 1.93		0	 0	0	0
+2013	 1.97		0	 0	0	0
+2014	 1.94		0	 0	0	0
+2015	 1.94		0	 0	0	0
+2016	 1.93		0	 0	0	0
+2017	 1.91		0	 0	0	0
+2018	 1.92		0	 0	0	0
+
+TOTAL Day  Violations:   5.0
+TOTAL Batt  Violations:  48.0
+TOTAL EMPTY Violations:  48.0
+TOTAL FULL  Violations:  0.0
+************************************
+
+Run time: 0:29:12.243286
+
+
+Seed ARG:  3
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  3
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.496531
+Device:  cpu
+Train time: 0:31:16.181248
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.9		2	 3	0	3
+2001	 1.87		3	 7	0	7
+2002	 1.83		5	 11	0	11
+2003	 1.91		3	 12	7	5
+2004	 1.81		7	 18	0	18
+2005	 1.93		1	 3	0	3
+2006	 1.96		2	 5	0	5
+2007	 1.8		10	 28	0	28
+2008	 1.94		3	 8	0	8
+2009	 1.84		5	 9	0	9
+2010	 1.82		7	 20	0	20
+2011	 1.77		13	 37	0	37
+2012	 1.87		6	 15	0	15
+2013	 1.73		13	 32	0	32
+2014	 1.71		12	 32	0	32
+2015	 1.73		13	 33	0	33
+2016	 1.78		12	 27	0	27
+2017	 1.82		7	 21	0	21
+2018	 1.72		15	 37	0	37
+
+TOTAL Day  Violations:   139.0
+TOTAL Batt  Violations:  358.0
+TOTAL EMPTY Violations:  7.0
+TOTAL FULL  Violations:  351.0
+************************************
+
+Run time: 0:31:53.262275
+
+
+Seed ARG:  4
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  4
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.589239
+Device:  cpu
+Train time: 0:31:17.021764
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.98		0	 0	0	0
+2001	 1.93		2	 2	0	2
+2002	 1.96		1	 2	0	2
+2003	 1.93		2	 2	0	2
+2004	 1.93		0	 0	0	0
+2005	 1.92		2	 3	0	3
+2006	 1.95		0	 0	0	0
+2007	 1.96		0	 0	0	0
+2008	 1.93		3	 7	0	7
+2009	 1.95		1	 2	0	2
+2010	 1.94		2	 3	0	3
+2011	 1.96		0	 0	0	0
+2012	 1.94		0	 0	0	0
+2013	 1.95		0	 0	0	0
+2014	 1.95		0	 0	0	0
+2015	 1.95		1	 2	0	2
+2016	 1.96		1	 1	0	1
+2017	 1.97		0	 0	0	0
+2018	 1.96		0	 0	0	0
+
+TOTAL Day  Violations:   15.0
+TOTAL Batt  Violations:  24.0
+TOTAL EMPTY Violations:  0.0
+TOTAL FULL  Violations:  24.0
+************************************
+
+Run time: 0:31:55.103503
+
+
+Seed ARG:  5
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  5
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.505221
+Device:  cpu
+Train time: 0:31:47.047699
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.72		5	 8	1	7
+2001	 1.69		7	 26	21	5
+2002	 1.63		9	 29	11	18
+2003	 1.6		9	 26	17	9
+2004	 1.65		8	 32	8	24
+2005	 1.66		11	 69	30	39
+2006	 1.7		3	 12	12	0
+2007	 1.63		11	 25	0	25
+2008	 1.68		6	 22	5	17
+2009	 1.74		2	 9	7	2
+2010	 1.75		2	 3	2	1
+2011	 1.75		5	 20	4	16
+2012	 1.74		3	 8	7	1
+2013	 1.75		6	 12	0	12
+2014	 1.71		7	 15	10	5
+2015	 1.71		5	 13	8	5
+2016	 1.73		5	 10	0	10
+2017	 1.65		12	 48	22	26
+2018	 1.73		7	 24	0	24
+
+TOTAL Day  Violations:   123.0
+TOTAL Batt  Violations:  411.0
+TOTAL EMPTY Violations:  165.0
+TOTAL FULL  Violations:  246.0
+************************************
+
+Run time: 0:32:25.946657
+
+
+Seed ARG:  6
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  6
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.511592
+Device:  cpu
+Train time: 0:31:22.571570
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.98		0	 0	0	0
+2001	 1.92		4	 9	0	9
+2002	 1.92		3	 7	0	7
+2003	 1.93		2	 4	0	4
+2004	 1.85		10	 25	0	25
+2005	 1.98		1	 2	0	2
+2006	 1.99		0	 0	0	0
+2007	 1.91		5	 14	0	14
+2008	 1.98		1	 3	0	3
+2009	 1.96		0	 0	0	0
+2010	 1.9		4	 15	0	15
+2011	 1.87		8	 20	0	20
+2012	 1.91		4	 8	0	8
+2013	 1.85		9	 24	0	24
+2014	 1.89		6	 17	0	17
+2015	 1.89		5	 12	0	12
+2016	 1.88		5	 19	0	19
+2017	 1.84		7	 19	0	19
+2018	 1.79		13	 36	0	36
+
+TOTAL Day  Violations:   87.0
+TOTAL Batt  Violations:  234.0
+TOTAL EMPTY Violations:  0.0
+TOTAL FULL  Violations:  234.0
+************************************
+
+Run time: 0:32:01.415364
+
+
+Seed ARG:  7
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  7
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.566430
+Device:  cpu
+Train time: 0:31:58.425836
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.99		0	 0	0	0
+2001	 1.99		0	 0	0	0
+2002	 1.98		0	 0	0	0
+2003	 1.99		0	 0	0	0
+2004	 1.94		3	 16	16	0
+2005	 1.98		0	 0	0	0
+2006	 1.9		5	 39	39	0
+2007	 1.98		0	 0	0	0
+2008	 1.99		0	 0	0	0
+2009	 1.95		1	 6	6	0
+2010	 1.99		0	 0	0	0
+2011	 1.99		0	 0	0	0
+2012	 1.99		0	 0	0	0
+2013	 1.99		0	 0	0	0
+2014	 1.97		0	 0	0	0
+2015	 1.99		0	 0	0	0
+2016	 1.98		0	 0	0	0
+2017	 1.99		0	 0	0	0
+2018	 1.99		0	 0	0	0
+
+TOTAL Day  Violations:   9.0
+TOTAL Batt  Violations:  61.0
+TOTAL EMPTY Violations:  61.0
+TOTAL FULL  Violations:  0.0
+************************************
+
+Run time: 0:32:38.604164
+
+
+Seed ARG:  8
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  8
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.526753
+Device:  cpu
+Train time: 0:28:25.274819
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.94		1	 1	0	1
+2001	 1.95		0	 0	0	0
+2002	 1.94		0	 0	0	0
+2003	 1.97		0	 0	0	0
+2004	 1.91		1	 1	0	1
+2005	 1.97		0	 0	0	0
+2006	 1.96		0	 0	0	0
+2007	 1.96		0	 0	0	0
+2008	 1.98		0	 0	0	0
+2009	 1.98		0	 0	0	0
+2010	 1.95		0	 0	0	0
+2011	 1.97		0	 0	0	0
+2012	 1.92		0	 0	0	0
+2013	 1.94		1	 1	0	1
+2014	 1.95		0	 0	0	0
+2015	 1.94		1	 1	0	1
+2016	 1.99		0	 0	0	0
+2017	 1.94		0	 0	0	0
+2018	 1.94		0	 0	0	0
+
+TOTAL Day  Violations:   4.0
+TOTAL Batt  Violations:  4.0
+TOTAL EMPTY Violations:  0.0
+TOTAL FULL  Violations:  4.0
+************************************
+
+Run time: 0:29:03.958230
+
+
+Seed ARG:  9
+
+MODEL :  A0_TOKYO_07_57_40
+SEED  :  9
+HOST  :  3d7e6ad341be
+START :  2019-04-03 07:57:40.524255
+Device:  cpu
+Train time: 0:31:45.060713
+
+
+
+TOKYO
+YEAR	AVG_RWD		VIOLATIONS	EMPTY	FULL
+			DAY	BATT
+2000	 1.97		0	 0	0	0
+2001	 1.95		0	 0	0	0
+2002	 1.95		0	 0	0	0
+2003	 1.96		0	 0	0	0
+2004	 1.9		1	 3	0	3
+2005	 1.96		0	 0	0	0
+2006	 1.96		0	 0	0	0
+2007	 1.9		3	 9	0	9
+2008	 1.96		1	 4	0	4
+2009	 1.97		0	 0	0	0
+2010	 1.91		2	 4	0	4
+2011	 1.93		1	 1	0	1
+2012	 1.92		1	 1	0	1
+2013	 1.9		0	 0	0	0
+2014	 1.9		2	 7	0	7
+2015	 1.92		2	 4	0	4
+2016	 1.91		2	 5	0	5
+2017	 1.92		0	 0	0	0
+2018	 1.86		4	 11	0	11
+
+TOTAL Day  Violations:   19.0
+TOTAL Batt  Violations:  49.0
+TOTAL EMPTY Violations:  0.0
+TOTAL FULL  Violations:  49.0
+************************************
+
+Run time: 0:32:23.849372
