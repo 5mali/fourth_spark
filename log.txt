@@ -13,6 +13,7 @@ A0 > Double DQN
         > A0_longer : 200 iterations
         > A0_deeper : DEPTH = 2
         > A0-deeper-longer_half_reward: 200 iterations/DEPTH=2/Reward clipped to +-1
+        > A0_standard: Rewards clipped to +-1 / GAMMA = 0.99/ ITERATIONS = 200
 ********************************************************************
 A0                                                                 *
 ********************************************************************
